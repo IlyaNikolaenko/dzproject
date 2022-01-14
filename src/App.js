@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { MyComponents } from "./components/MyComponents";
 import {List} from "./components/List";
+import {Lificycles} from "./components/Lificycles";
 
 function App() {
     const getData = () => {
@@ -19,6 +20,7 @@ function App() {
             user={{ name: "John", age: 34 }}
             data={getData()}
         />
+        <Lificycles />
         <List.UsersList />
     </div>
   );
