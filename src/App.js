@@ -3,6 +3,7 @@ import './App.css';
 import { MyComponents } from "./components/MyComponents";
 import {List} from "./components/List";
 import {Lificycles} from "./components/Lificycles";
+import {Timer} from "./components/Timer";
 
 function App() {
     const getData = () => {
@@ -22,6 +23,7 @@ function App() {
         />
         <Lificycles />
         <List.UsersList />
+        <Timer />
     </div>
   );
 }
