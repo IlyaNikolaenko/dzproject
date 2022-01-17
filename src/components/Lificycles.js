@@ -19,7 +19,7 @@ export class Lificycles extends React.Component {
     };
 
     handleClick = () => {
-        this.setState({count: ++this.state.count})
+        this.setState({count: this.state.count + 1})
     }
 
     setInputRef = (node) => {
