@@ -4,6 +4,7 @@ import { MyComponents } from "./components/MyComponents";
 import {List} from "./components/List";
 import {Lificycles} from "./components/Lificycles";
 import {Timer} from "./components/Timer";
+import {ButtonReduxContainer} from "./components/ButtonRedux";
 
 function App() {
     const getData = () => {
@@ -24,6 +25,7 @@ function App() {
         <Lificycles />
         <List.UsersList />
         <Timer />
+        <ButtonReduxContainer />
     </div>
   );
 }
