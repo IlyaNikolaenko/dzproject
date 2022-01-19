@@ -1,7 +1,5 @@
 import React from "react";
 
-import { CounterContainer } from "../counter";
-
 export const MyComponents = {
     Header: (props) => {
         return (
@@ -18,7 +16,6 @@ export const MyComponents = {
                 >
                     Learn React
                 </a>
-                <CounterContainer />
             </header>
         );
     },

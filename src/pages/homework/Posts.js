@@ -8,7 +8,7 @@ class Posts extends React.Component {
     }
 
     render() {
-        const {isLoading, posts} =this.props;
+        const {isLoading, posts} = this.props;
 
         return isLoading ? (
             <div>
