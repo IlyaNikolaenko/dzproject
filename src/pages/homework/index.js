@@ -2,6 +2,7 @@ import React from "react";
 import {List} from "./List";
 import {Timer} from "./Timer";
 import {ButtonReduxContainer} from "./ButtonRedux";
+import {PostsContainer} from "./Posts";
 
 export const HomeworkPage = () => {
     return (
@@ -9,6 +10,7 @@ export const HomeworkPage = () => {
             <List.UsersList />
             <Timer />
             <ButtonReduxContainer />
+            <PostsContainer />
         </>
     )
 }
