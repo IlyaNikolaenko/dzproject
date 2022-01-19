@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CounterContainer } from "../Containers/Counter";
+import { CounterContainer } from "../counter";
 
 export const MyComponents = {
     Header: (props) => {

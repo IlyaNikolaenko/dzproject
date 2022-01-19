@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Lificycles extends React.Component {
+export class Lifecycle extends React.Component {
     //state = {count: 0}
 
     constructor(props) {

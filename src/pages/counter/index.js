@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from "../components/Button";
-import {actionInc,actionDec} from "../actions/counter";
+import { Button } from "../../components/Button";
+import {actionInc,actionDec} from "../../actions/counter";
 import {connect} from "react-redux";
 
 class Counter extends React.Component {
@@ -20,9 +20,9 @@ class Counter extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => ({ counter: state.counterReducer.counter});
+const mapStateToProps = ({counterReducer:{counter}}) => ({ counter: counter});
 const mapDispatchToProps = {
-    actionInc: actionInc,
+    actionInc,
     actionDec
 };
 

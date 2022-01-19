@@ -1,5 +1,5 @@
 import React from "react";
-import {actionGreen, actionRed, actionBlue} from "../actions/buttonRedux";
+import {actionGreen, actionRed, actionBlue} from "../../actions/buttonRedux";
 import {connect} from "react-redux";
 
 class ButtonRedux extends React.Component {
@@ -19,7 +19,7 @@ class ButtonRedux extends React.Component {
         )
     }
 }
-const mapStateToProps = (state) =>({bg: state.buttonReduxReducer.bg});
+const mapStateToProps = ({buttonReduxReducer: {bg}}) =>({bg: bg});
 const mapDispatchToProps = {
     actionGreen,
     actionRed,
