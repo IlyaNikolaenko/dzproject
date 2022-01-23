@@ -1,6 +1,7 @@
 import React from "react";
 import {MyComponents} from "./MyComponents";
 import logo from "../../logo.svg";
+import {Link} from "react-router-dom";
 
 export const MainPage = () => {
     const getData = () => {
@@ -9,6 +10,11 @@ export const MainPage = () => {
 
     return (
         <>
+            <Link to={"/photos"}>Go to Photos</Link>
+            <Link to={"/counter"}>Go to Counter</Link>
+            <Link to={"/lifecycle"}>Go to Lifecycle</Link>
+            <Link to={"/homework"}>Go to Homework</Link>
+            <Link to={"/forms"}>Go to Forms</Link>
             <MyComponents.Header logo={logo}/>
             <MyComponents.Body />
             <MyComponents.Section

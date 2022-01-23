@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {getPhotos} from "../../actions/photos";
+import {Link} from "react-router-dom";
 
 
 class Photos extends React.Component {
@@ -16,7 +17,9 @@ class Photos extends React.Component {
             <div>{photos.map((item) => (
                 <div key={item.id}>
                     <h3>{item.title}</h3>
-                    <img src={item.url} alt={item.id}/>
+                    <Link to={`/photos/${item.id}`}>
+                        <img src={item.url} alt={item.id}/>
+                    </Link>
                 </div>
                 ))}
             </div>
