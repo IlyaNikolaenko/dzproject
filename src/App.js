@@ -7,6 +7,8 @@ import {Lifecycle} from "./pages/lifecycle";
 import {HomeworkPage} from "./pages/homework";
 import {Photo} from "./pages/photos/Photo";
 import {Form} from "./pages/forms";
+import {MyContext} from "./pages/context";
+import {Portals} from "./pages/portal";
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
            <Route path="/lifecycle" element={<Lifecycle />} />
            <Route path="/homework" element={<HomeworkPage />} />
            <Route path="/forms" element={<Form />} />
+           <Route path="/context" element={<MyContext />} />
+           <Route path="/portals" element={<Portals />} />
        </Routes>
     </div>
   );

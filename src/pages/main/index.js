@@ -15,6 +15,8 @@ export const MainPage = () => {
             <Link to={"/lifecycle"}>Go to Lifecycle</Link>
             <Link to={"/homework"}>Go to Homework</Link>
             <Link to={"/forms"}>Go to Forms</Link>
+            <Link to={"/context"}>Go to Context</Link>
+            <Link to={"/portals"}>Go to Portals</Link>
             <MyComponents.Header logo={logo}/>
             <MyComponents.Body />
             <MyComponents.Section
