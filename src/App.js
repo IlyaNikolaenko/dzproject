@@ -9,6 +9,7 @@ import {Photo} from "./pages/photos/Photo";
 import {Form} from "./pages/forms";
 import {MyContext} from "./pages/context";
 import {Portals} from "./pages/portal";
+import {Hooks} from "./pages/hooks";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
            <Route path="/forms" element={<Form />} />
            <Route path="/context" element={<MyContext />} />
            <Route path="/portals" element={<Portals />} />
+           <Route path="/hooks" element={<Hooks />} />
        </Routes>
     </div>
   );
