@@ -1,15 +1,15 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
-import {MainPage} from "./pages/main";
-import {PhotosContainer} from "./pages/photos";
-import {CounterContainer} from "./pages/counter";
-import {Lifecycle} from "./pages/lifecycle";
-import {HomeworkPage} from "./pages/homework";
-import {Photo} from "./pages/photos/Photo";
-import {Form} from "./pages/forms";
-import {MyContext} from "./pages/context";
-import {Portals} from "./pages/portal";
-import {Hooks} from "./pages/hooks";
+import {MainPage} from "../pages/main";
+import {PhotosContainer} from "../pages/photos";
+import {CounterContainer} from "../pages/counter";
+import {Lifecycle} from "../pages/lifecycle";
+import {HomeworkPage} from "../pages/homework";
+import {Photo} from "../pages/photos/Photo";
+import {Form} from "../pages/forms";
+import {MyContext} from "../pages/context";
+import {Portals} from "../pages/portal";
+import {Hooks} from "../pages/hooks";
 
 function App() {
 
